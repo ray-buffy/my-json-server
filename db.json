@@ -1,13 +1,31 @@
 {
   "projects": [
-    { "name": "Beer Fund",
+    {
+      "id": 1,
+      "name": "Beer Fund",
       "goal": 1000,
       "end-date": "2019-06-09",
       "donations": [
-        { "id": 1, "amount": 50 },
-        { "id": 2, "amount": 50 },
-        { "id": 3, "amount": 150 },
-        { "id": 4, "amount": 50 }
+        {
+          "id": 1,
+          "projectId": 1,
+          "amount": 50
+        },
+        {
+          "id": 2,
+          "projectId": 1,
+          "amount": 50
+        },
+        {
+          "id": 3,
+          "projectId": 1,
+          "amount": 150
+        },
+        {
+          "id": 4,
+          "projectId": 1,
+          "amount": 50
+        }
       ]
     }
   ]
