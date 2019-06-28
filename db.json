@@ -28,5 +28,71 @@
         }
       ]
     }
+  ],
+  "carts": [
+    {
+      "id": 1,
+      "total": 150,
+      "line_items": [
+        {
+          "id": 1,
+          "product": "the cloud",
+          "size": "Full/Queen",
+          "quantity": 1,
+          "total": 150
+        }
+      ],
+      "recommendation": [
+        {
+          "id": 1,
+          "product": "Duvet Cover",
+          "size": "Full/Queen",
+          "quantity": 1,
+          "total": 100
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "total": 250,
+      "line_items": [
+        {
+          "id": 1,
+          "product": "the cloud",
+          "size": "Full/Queen",
+          "quantity": 1,
+          "total": 150
+        },
+        {
+          "id": 2,
+          "product": "Duvet Cover",
+          "size": "Full/Queen",
+          "quantity": 1,
+          "total": 100
+        }        
+      ],
+      "recommendation": []
+    },
+    {
+      "id": 3,
+      "total": 340,
+      "line_items": [
+        {
+          "id": 1,
+          "product": "the cloud",
+          "size": "Full/Queen",
+          "quantity": 1,
+          "total": 150
+        },
+        {
+          "id": 2,
+          "product": "the cloud",
+          "size": "King",
+          "quantity": 1,
+          "total": 190
+        }
+      ],
+      "recommendation": []
+    }
   ]
 }
